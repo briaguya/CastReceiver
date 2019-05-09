@@ -18,6 +18,10 @@ body {
   --playback-logo-image: url('res/logo_googleg_color_2x_web_48dp.png');
 }
 
+.cc__wallpaper {
+      width: 100%;   
+}
+
 cast-media-player {
     display:none;
   --theme-hue: 180;
