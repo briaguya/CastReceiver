@@ -19,21 +19,33 @@ Cast.
  -->
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="css/receiver.css" media="screen" />
+    <script
+      type="text/javascript"
+      src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"
+    ></script>
+  </head>
 
-<head>
-  <link rel="stylesheet" href="css/receiver.css" media="screen" />
-  <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js">
-  </script>
-</head>
+  <body>
+    <div id="cc_wallpaper">
+      <img
+        src="http://rainy-wallpaper.s3-website-us-east-1.amazonaws.com/media/orioto/wall_00005.jpg"
+      />
+      <img
+        src="http://rainy-wallpaper.s3-website-us-east-1.amazonaws.com/media/orioto/wall_00006.jpg"
+      />
+      <img
+        src="http://rainy-wallpaper.s3-website-us-east-1.amazonaws.com/media/orioto/wall_00007.jpg"
+      />
+      <img
+        src="http://rainy-wallpaper.s3-website-us-east-1.amazonaws.com/media/orioto/wall_00008.jpg"
+      />
+    </div>
+    <cast-media-player></cast-media-player>
 
-<body>
-  
-  <img class="cc__wallpaper" src="http://rainy-wallpaper.s3-website-us-east-1.amazonaws.com/media/orioto/wall_00008.jpg">
-  <cast-media-player></cast-media-player>
-
-  <footer>
-    <script src="js/receiver.js" type="module"></script>
-  </footer>
-</body>
-
+    <footer>
+      <script src="js/receiver.js" type="module"></script>
+    </footer>
+  </body>
 </html>
